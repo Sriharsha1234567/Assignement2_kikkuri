@@ -17,3 +17,20 @@
 * cricket kit
 
 [AboutMe link](AboutMe.md)
+
+---
+
+## Mostly popular Food/Drinks
+below table illustrates some drinks and food items which i recommend to try
+
+|Food/Drinks   | Location  | Price($) |
+|--------------| --------- | ----- |
+| chicken      | bodhan    |  10   |
+| Tandoori     | punjab    |  15   |
+| burfi        |sikkim     |  7    |
+| Pani puri    | hyderbad  |  5    |
+| Faluda       | banglore  |  14   |
+
+---
+
+
