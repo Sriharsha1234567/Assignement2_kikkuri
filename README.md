@@ -12,3 +12,6 @@
      1. Hire a taxi from Airport to Bus Stop.
      2. Travel to Nizamabd.
      5. Hire a taxi to Bodhan from Nizamabad.
+* swim suit
+* books
+* cricket kit
