@@ -40,13 +40,13 @@ Mathematicians deal with large numbers sometimes, but never in their income.-"Is
 ---
 # Code Fencing
 ---
-int m, n;
-vector<long long> dp_before(n), dp_cur(n);
+    int m, n;
+    vector<long long> dp_before(n), dp_cur(n);
 
-long long C(int i, int j);
+    long long C(int i, int j);
 
-// compute dp_cur[l], ... dp_cur[r] (inclusive)
-void compute(int l, int r, int optl, int optr) {
+    // compute dp_cur[l], ... dp_cur[r] (inclusive)
+    void compute(int l, int r, int optl, int optr) {
     if (l > r)
         return;
 
@@ -62,19 +62,21 @@ void compute(int l, int r, int optl, int optr) {
 
     compute(l, mid - 1, optl, opt);
     compute(mid + 1, r, opt, optr);
-}
+    }
 
-int solve() {
+    int solve() 
+    {
     for (int i = 0; i < n; i++)
         dp_before[i] = C(0, i);
 
-    for (int i = 1; i < m; i++) {
+    for (int i = 1; i < m; i++) 
+    {
         compute(0, n - 1, 0, n - 1);
         dp_before = dp_cur;
     }
 
     return dp_before[n - 1];
-}
+    }
 ---
 https://cp-algorithms.com/dynamic_programming/divide-and-conquer-dp.html
 
