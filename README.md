@@ -38,8 +38,10 @@ I have only made this letter longer because I have not had the time to make it s
 Mathematicians deal with large numbers sometimes, but never in their income.-"Isaac Asimov"
 
 ---
+
 # Code Fencing
----
+Dynamic programming is both a mathematical optimization method and a computer programming method.<https://en.wikipedia.org/wiki/Dynamic_programming>
+
     int m, n;
     vector<long long> dp_before(n), dp_cur(n);
 
